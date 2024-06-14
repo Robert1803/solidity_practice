@@ -2,7 +2,7 @@
 pragma solidity ^0.8.24;
 
 contract Loop {
-    function loop() public {
+    function loop() public pure {
         // for loop
         for (uint256 i = 0; i < 10; i++) {
             if (i == 3) {
@@ -25,6 +25,6 @@ contract Loop {
         uint256 k;
         do {
             k++;
-        } while (k < 10)
+        } while (k < 10);
     }
 }
